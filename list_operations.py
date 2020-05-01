@@ -200,9 +200,14 @@ def delete_third_and_seventh(input_list):
     # Relationship between pointers and values will change. 
     # Remove seventh element first to preserve third element's index value. 
     # Remove third element next. 
-    input_list.pop(6)   
-    input_list.pop(2)
-    
+    # Using list_name.pop() will return a value. 
+    #input_list.pop(6)   
+    #input_list.pop(2)
+
+    # Use del list_name[a:b] instead to void returning values. 
+    del input_list [6]
+    del input_list [2]
+
     pass
 
 
@@ -219,6 +224,7 @@ def delete_middle(input_list):
     True
 
     """
+    del input_list
 
     pass
 
