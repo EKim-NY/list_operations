@@ -196,9 +196,13 @@ def delete_third_and_seventh(input_list):
 
     """
 
-    #input_list.pop(2)
-    #input_list.pop(6)
-
+    # list.pop(int) removes the indexed value from list
+    # Relationship between pointers and values will change. 
+    # Remove seventh element first to preserve third element's index value. 
+    # Remove third element next. 
+    input_list.pop(6)   
+    input_list.pop(2)
+    
     pass
 
 
