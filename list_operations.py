@@ -133,6 +133,16 @@ def replace_head(input_list):
 
     """
 
+    input_list [0] = 42
+
+    
+    '''
+    Definition of pass statement from docs.python.org: 
+    pass is a null operation -- when it is executed, nothing happens. 
+    It is useful as a placeholder when a statement is required syntactically, 
+    but no code needs to be executed.
+    '''
+
     pass
 
 
